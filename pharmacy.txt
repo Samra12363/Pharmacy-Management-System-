@@ -1,0 +1,5 @@
+Number of medicines:1
+Id:1	 Name:Panadol	 Category:Painkiller	 Price:55.00	 Quantity:200	 Sold:0
+ daily sales:0
+ weekly sales:0
+ total sales:0
