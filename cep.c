@@ -1,22 +1,22 @@
 /*
- *  PHARMACY MANAGEMENT SYSTEM
- * --------------------------------------------------------------------
- *  A menu-driven program to manage a pharmacy's medicine stock.
- *
- *  Features:
- *    - Add, display, search (name / category / ID), update, delete
- *    - Sell medicine and print a receipt
- *    - Low stock alerts
- *    - Sales report (daily, weekly, total)
- *    - Save / load records using a text file (pharmacy.txt)
- *  Note: Enter -1 at most prompts to go back / cancel.
+   PHARMACY MANAGEMENT SYSTEM
+ --------------------------------------------------------------------
+   A menu-driven program to manage a pharmacy's medicine stock.
+ 
+    Features:
+        Add, display, search (name / category / ID), update, delete
+        Sell medicine and print a receipt
+        Low stock alerts
+        Sales report (daily, weekly, total)
+        Save / load records using a text file (pharmacy.txt)
+        Enter -1 at most prompts to go back / cancel.
  */
 
-#include <stdio.h>    /* printf, scanf, file handling (FILE, fopen...) */
-#include <string.h>   /* strcpy, strcmp */
+#include <stdio.h>    
+#include <string.h>   
 
-#define MAX 100       /* Maximum number of medicines the system can store */
-#define LOW_STOCK 10  /* A medicine is "low on stock" at or below this quantity */
+#define MAX 100       // Maximum number of medicines the system can store 
+#define LOW_STOCK 10  // A medicine is "low on stock" at or below this quantity 
 
 /* Structure that holds the information of one medicine */
 struct Medicine
@@ -980,4 +980,5 @@ int main()
     } while (choice != -1);   /* Repeat until the user exits */
 
     return 0;
+
 }
